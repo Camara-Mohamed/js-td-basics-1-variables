@@ -6,5 +6,6 @@ Affichez dans la console :
 
 // Votre prénom (chaîne)
 console.log('Mohamed');
+
 // Votre âge (nombre)
 console.log(22);
