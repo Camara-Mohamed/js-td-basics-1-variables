@@ -1,9 +1,9 @@
-/*****************************
- * 009 - Mutation de variable et conversion de type
+/*
+    009 - Mutation de variable et conversion de type
  */
 
 // 1. Initialisez les variables firstName à "John" et age à 28.
-let firstName = "John";
+const firstName = "John";
 let age = 28;
 
 // Conversion de type
@@ -24,6 +24,5 @@ age = "vingt-huit";
 job = "conducteur";
 
 // 5. Affichez une boîte de dialogue demandant "Quel est son nom de famille ?" pour permettre à l'utilisateur d'entrer le nom de famille de John. Stockez ce nom dans une variable lastName, puis affichez "Le nom de famille de John est … (le nom).
-
 let lastName = prompt("Quel est son nom de famille ?");
 console.log(`Le nom de famille de John est ${lastName}`);

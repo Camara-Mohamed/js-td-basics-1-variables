@@ -19,9 +19,9 @@ console.log(`John est né en ${ageJohn}.`);
 console.log(`Mark est né en ${ageMark}.`);
 
 // 3. Affichez l'année à laquelle nous serons dans deux ans, le double de l'année et le dixième de l'année.
-console.log(typeof `L'année à laquelle on sera dans 2 ans est ${now + 2}.`);
-console.log(typeof `Le double de l'année actuelle est ${now * 2}.`);
-console.log(typeof `Le dixième de l'année actuelle est ${now / 10}.`);
+console.log(`L'année à laquelle on sera dans 2 ans est ${now + 2}.`);
+console.log(`Le double de l'année actuelle est ${now * 2}.`);
+console.log(`Le dixième de l'année actuelle est ${now / 10}.`);
 
 // Opérateurs logiques
 

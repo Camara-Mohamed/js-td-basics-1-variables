@@ -16,6 +16,6 @@ console.log(typeof myVar);
 
 // alert('Bonjour');
 
-const myAge = prompt("Quel est ton âge ?");
+/* const myAge = prompt("Quel est ton âge ?");
 
-console.log(myAge);
+console.log(myAge); */
