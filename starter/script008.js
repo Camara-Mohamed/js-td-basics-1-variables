@@ -7,7 +7,7 @@ const firstName = "John";
 
 // 2. Initialisez une variable lastName à "Smith" et une variable age à 28.
 const lastName = "Smith";
-const age = 28;
+let age = 28;
 
 // 3. Initialisez une variable fullAge à true et affichez-la.
 const fullAge = true;

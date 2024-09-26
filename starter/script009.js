@@ -1,3 +1,6 @@
+/*****************************
+ * 009 - Mutation de variable et conversion de type
+ */
 
 // 1. Initialisez les variables firstName à "John" et age à 28.
 const firstName = "John";
