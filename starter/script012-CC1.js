@@ -27,7 +27,5 @@ const isMarkBiggerThanJohn = bmiMark > bmiJohn;
 //    Mark est plus élevé que celui de John ? true").
 console.log(`Est-ce que le BMI de Mark est plus élevé que celui de John ? ${isMarkBiggerThanJohn}`);
 
-
-
 //
 // BONNE CHANCE 😀
