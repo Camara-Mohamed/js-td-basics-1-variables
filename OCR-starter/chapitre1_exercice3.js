@@ -25,3 +25,7 @@ console.log('4' + 5);
 
 // Cas 4 : Entourer l'expression (VALEUR OPÉRANDE VALEUR) de guillemets
 console.log('4 + 5');
+
+// Cas Bonus : Somme de a et b
+console.log("\"" + a + "+" + b + "=" + (a+b) + "\"");
+console.log(`"${a} + ${b} = ${a + b}"`);
