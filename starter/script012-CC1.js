@@ -25,6 +25,40 @@ const isMarkBiggerThanJohn = bmiMark > bmiJohn;
 // 4. Imprimez une chaîne de caractères dans la console contenant la
 //    variable de l'étape 3 (Quelque chose du genre "Est-ce que le BMI de
 //    Mark est plus élevé que celui de John ? true").
+/*
 console.log(`Est-ce que le BMI de Mark est plus élevé que celui de John ? ${isMarkBiggerThanJohn}`);
+*/
+
+console.log(`BMI Mark : ${bmiMark}`);
+console.log(`BMI John : ${bmiJohn}`);
+
+if (bmiMark > bmiJohn) {
+    console.log('Le BMI de Mark est plus élevé que celui de John');
+
+    if (bmiMark <= 18) {
+        console.log('Ton (Mark) BMI est <= 18.');
+    } else if (bmiMark <= 25) {
+        console.log('Ton (Mark) BMI est [19-25]');
+    } else if (bmiMark <= 35) {
+        console.log('Ton (Mark) BMI est [26-35]');
+    } else {
+        console.log('Ton (Mark) BMI est > 35');
+    }
+
+} else if (bmiJohn === bmiMark) {
+    console.log('Le BMI de Mark est le même que celui de John');
+} else {
+    console.log('Le BMI de John est plus élevé que celui de Mark');
+
+    if (bmiJohn <= 18) {
+        console.log('Ton (John) BMI est <= 18.');
+    } else if (bmiJohn <= 25) {
+        console.log('Ton (John) BMI est [19-25]');
+    } else if (bmiJohn <= 35) {
+        console.log('Ton (John) BMI est [26-35]');
+    } else {
+        console.log('Ton (John) BMI est > 35');
+    }
+}
 
 // BONNE CHANCE 😀
